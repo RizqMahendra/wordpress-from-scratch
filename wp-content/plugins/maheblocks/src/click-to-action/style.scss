@@ -1,0 +1,42 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+ $mobile-1:640px;
+
+.wp-block-cgb-block-maheblocks-cta  {
+  color: $white;
+  background: linear-gradient(180deg, #F18825 0%, #F46565 100%);
+mix-blend-mode: normal;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.has-text-align-center {
+  &.mahe-heading-cta{
+    margin-top: 64px;
+    margin-bottom:36px;
+    @media(max-width:$mobile-1){
+      margin:20px;
+    }
+  }
+  &.mahe-paragraph-cta{
+    margin-bottom:36px;
+    @media(max-width:$mobile-1){
+      margin:20px;
+    }
+  }
+  
+}
+
+.wp-block-button{
+  &.mahe-button-cta{
+    margin-bottom:36px;
+  }
+  @media(max-width:$mobile-1){
+    margin:20px;
+  }
+}
+

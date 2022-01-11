@@ -1,0 +1,37 @@
+
+$nav-text-color:#2B3DEC;
+
+header nav{
+    height: 100px !important;
+    background:#f2f3fe;
+
+}
+
+header li{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav span{
+    color : #373F41;
+    &:hover{
+        color: #2B3DEC;
+    }
+    &:active{
+        color: #2B3DEC !important;
+    }
+}
+// .nav span:hover{
+//    
+   
+// }
+.navbar-right{
+    margin-left: auto !important;
+}
+
+h2{
+    &.site-title{
+        font-size:24px;
+        color : $nav-text-color;
+    }
+}
